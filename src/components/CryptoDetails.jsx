@@ -68,7 +68,7 @@ const CryptoDetails = () => {
 
   const stats = [
     {
-      title: "Price to USD",
+      title: `Price to ${currency === 'inr' ? 'INR':'USD'}`,
       value: `${currency === "inr" ? "₹" : "$"}${" "}${(
         cryptoDetails?.price * (currency === "inr" ? exchangeRate : 1)
       ).toFixed(2)}`,
