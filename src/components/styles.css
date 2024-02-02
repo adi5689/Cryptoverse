@@ -1,0 +1,99 @@
+.logo .logo-text{
+    color: white;
+    font-size: 24px;
+}
+
+.logo .logo-text:hover{
+    color: black;
+}
+.nav-container .menu{
+    background: rgb(0, 0, 0);
+}
+.nav-container .menu .item-text{
+    color:rgb(255, 255, 255);
+}
+.nav-container .menu .item-text:hover{
+    color:#f45100;
+}
+
+.nav-container .menu .menu-icon{
+    color:rgb(255, 255, 255);
+}
+
+.currency-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    border-radius: 20px;
+
+    border: 1px solid #ccc; /* Optional: Add a border */
+    padding: 10px; /* Optional: Add some padding */
+   }
+   
+   .currency {
+    font-size: 26px;
+    font-weight:600;
+    color:black; /* Adjust as needed */
+   }
+   
+   .currency-div .ant-switch {
+    background-color: #00d3f4;
+   }
+   
+   .currency-div .ant-switch-checked {
+    background-color: #f40000;
+   }
+
+   .heading-contain {
+    display: flex;
+    flex-direction: column;
+    /* eslint-disable-next-line */
+    align-items: flex-start;
+    color: white;
+   }
+   
+   @media screen and (min-width: 768px) {
+    .heading-contain {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+   }
+   
+   .currency-div{
+    background-color: #e99bf91c;
+    height: 7vh;
+   }
+   .currency-div .ant-switch {
+    width: 40px; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+   }
+   
+   .currency-div .ant-switch-handle {
+    width: 16px; /* Adjust as needed */
+    height: 16px; /* Adjust as needed */
+   }
+
+   .crypto-card {
+    padding: 10px;
+   }
+
+   .heading{
+    color: white;
+   }
+   h2{
+    color: white;
+   }
+
+   .search-cryptos{
+    display: flex;
+    justify-content:space-between;
+   }
+
+   .news-search{
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+   }
+
+   
